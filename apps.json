@@ -22,7 +22,8 @@
         "ipkSize": 4031662
       },
       "pool": "main",
-      "shortDescription": "ByeByeDPI DPI-bypass supervisor for rooted webOS TVs (loopback proxy, strategy probe, device-wide TUN capture)."
+      "shortDescription": "DPI-bypass supervisor for rooted LG webOS TVs.",
+      "fullDescriptionUrl": "full_description.html"
     }
   ],
   "paging": {

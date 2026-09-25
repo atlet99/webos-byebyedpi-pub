@@ -1,0 +1,9 @@
+<h2>webOS ByeByeDPI</h2>
+<p>ByeByeDPI DPI-bypass supervisor for rooted LG webOS TVs. Runs the bundled ciadpi engine on the TV itself so built-in apps (YouTube and friends) keep working behind DPI blocking.</p>
+<ul>
+<li><b>Loopback proxy</b> — SOCKS5/HTTP CONNECT with strategy probing and automatic rollback.</li>
+<li><b>Device-wide TUN capture</b> — policy rules when the kernel supports them, main-table route mode (with ciadpi egress binding) when it does not.</li>
+<li><b>Gateway sync</b> — poll a scenario from a router/mini-PC gateway and share one proxy for the whole LAN.</li>
+<li><b>LAN control</b> — one-time pairing web UI from a phone or PC.</li>
+</ul>
+<p>Requires a rooted TV (CAP_NET_ADMIN for capture) and the Homebrew Channel. Source and docs: <a href="https://github.com/atlet99/webos-byebyedpi-pub">github.com/atlet99/webos-byebyedpi-pub</a>.</p>
