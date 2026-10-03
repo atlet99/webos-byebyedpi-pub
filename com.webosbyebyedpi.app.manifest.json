@@ -1,16 +1,16 @@
 {
   "id": "com.webosbyebyedpi.app",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "app",
   "title": "webOS ByeByeDPI",
   "appDescription": "ByeByeDPI DPI-bypass supervisor for rooted webOS TVs (loopback proxy, strategy probe, device-wide TUN capture).",
   "iconUri": "https://atlet99.github.io/webos-byebyedpi-pub/icon.png",
   "rootRequired": true,
-  "ipkUrl": "https://atlet99.github.io/webos-byebyedpi-pub/com.webosbyebyedpi.app_1.0.5_all.ipk",
-  "ipkSha256sum": "eac52c680434d5b0995e01fe1796132e390e35411638a5afe0538be832e37566",
+  "ipkUrl": "https://atlet99.github.io/webos-byebyedpi-pub/com.webosbyebyedpi.app_1.0.6_all.ipk",
+  "ipkSha256sum": "d026e5730533365c9911996a4c3ba282f55b3a28e69c4d7ea0128f1d3082d3e5",
   "sourceUrl": "https://github.com/atlet99/webos-byebyedpi-pub",
   "ipkHash": {
-    "sha256": "eac52c680434d5b0995e01fe1796132e390e35411638a5afe0538be832e37566"
+    "sha256": "d026e5730533365c9911996a4c3ba282f55b3a28e69c4d7ea0128f1d3082d3e5"
   },
-  "ipkSize": 4062184
+  "ipkSize": 4062758
 }
