@@ -7,19 +7,19 @@
       "manifestUrl": "https://atlet99.github.io/webos-byebyedpi-pub/com.webosbyebyedpi.app.manifest.json",
       "manifest": {
         "id": "com.webosbyebyedpi.app",
-        "version": "1.4.2",
+        "version": "1.4.3",
         "type": "app",
         "title": "webOS ByeByeDPI",
         "appDescription": "ByeByeDPI DPI-bypass supervisor for rooted webOS TVs (loopback proxy, strategy probe, device-wide TUN capture).",
         "iconUri": "https://atlet99.github.io/webos-byebyedpi-pub/icon.png",
         "rootRequired": true,
-        "ipkUrl": "https://atlet99.github.io/webos-byebyedpi-pub/com.webosbyebyedpi.app_1.4.2_all.ipk",
-        "ipkSha256sum": "6b6dc36f3167a8db4b0dd29f41d3be4c618120ec79dd903f390b980af75944ab",
+        "ipkUrl": "https://atlet99.github.io/webos-byebyedpi-pub/com.webosbyebyedpi.app_1.4.3_all.ipk",
+        "ipkSha256sum": "e6148a257ff4bf631acf3ef6936f0a1aae3cc378ecddff52f2a6e1a5b27a93ae",
         "sourceUrl": "https://github.com/atlet99/webos-byebyedpi-pub",
         "ipkHash": {
-          "sha256": "6b6dc36f3167a8db4b0dd29f41d3be4c618120ec79dd903f390b980af75944ab"
+          "sha256": "e6148a257ff4bf631acf3ef6936f0a1aae3cc378ecddff52f2a6e1a5b27a93ae"
         },
-        "ipkSize": 4076382
+        "ipkSize": 4076484
       },
       "pool": "main",
       "shortDescription": "DPI-bypass supervisor for rooted LG webOS TVs.",
