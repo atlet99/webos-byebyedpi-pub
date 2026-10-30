@@ -1,0 +1,47 @@
+name: Notify combined catalog
+
+on:
+  page_build:
+  workflow_dispatch:
+
+permissions:
+  pages: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Wait for Pages publication
+        if: github.event_name == 'page_build'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EXPECTED_COMMIT: ${{ github.sha }}
+        run: |
+          for attempt in {1..60}; do
+            printf 'Checking Pages build (%s/60)\n' "$attempt"
+            build=$(gh api repos/atlet99/webos-byebyedpi-pub/pages/builds/latest)
+            status=$(jq -r .status <<< "$build")
+            commit=$(jq -r .commit <<< "$build")
+            if [ "$commit" = "$EXPECTED_COMMIT" ] && [ "$status" = built ]; then
+              exit 0
+            fi
+            if [ "$commit" = "$EXPECTED_COMMIT" ] && [ "$status" = errored ]; then
+              exit 1
+            fi
+            sleep 5
+          done
+          exit 1
+      - name: Create catalog token
+        id: catalog-token
+        uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
+        with:
+          client-id: ${{ vars.CATALOG_APP_CLIENT_ID }}
+          private-key: ${{ secrets.CATALOG_APP_PRIVATE_KEY }}
+          owner: atlet99
+          repositories: webos-repos
+          permission-contents: write
+      - name: Notify catalog
+        env:
+          GH_TOKEN: ${{ steps.catalog-token.outputs.token }}
+        run: gh api --method POST repos/atlet99/webos-repos/dispatches -f event_type=external-catalog-updated
