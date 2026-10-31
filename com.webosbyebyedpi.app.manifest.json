@@ -1,18 +1,18 @@
 {
   "id": "com.webosbyebyedpi.app",
-  "version": "2.5.7",
+  "version": "2.6.4",
   "type": "web",
   "title": "webOS ByeByeDPI",
   "appDescription": "ByeByeDPI DPI-bypass supervisor for rooted webOS TVs (loopback proxy, strategy probe, device-wide TUN capture).",
   "iconUri": "https://atlet99.github.io/webos-byebyedpi-pub/icon.png",
   "rootRequired": true,
-  "ipkUrl": "https://atlet99.github.io/webos-byebyedpi-pub/com.webosbyebyedpi.app_2.5.7_all.ipk",
+  "ipkUrl": "https://atlet99.github.io/webos-byebyedpi-pub/com.webosbyebyedpi.app_2.6.4_all.ipk",
   "ipkHash": {
-    "sha256": "51abed501faf37fd1c95679209bf9e417f42cdd1cdfbf927242c22ec63bd07c2"
+    "sha256": "4a3b0f8ba2de857b46d128183b92b892e9e84dc9271770353b40a170761d2d62"
   },
-  "ipkSha256sum": "51abed501faf37fd1c95679209bf9e417f42cdd1cdfbf927242c22ec63bd07c2",
+  "ipkSha256sum": "4a3b0f8ba2de857b46d128183b92b892e9e84dc9271770353b40a170761d2d62",
   "sourceUrl": "https://github.com/atlet99/webos-byebyedpi-pub",
-  "signature": "fxLZ1kTVwANAPZc9Tag2Qurpy/02pfQFDOWGCBqwl7keacz0q/XQNacGa0w+Ad8cSUKysZ0qAt4VCoFXxqJWa9nebC6+du7aEXTBHLzE1Fq56zsx4B6GTZgUN7rmoz6Q8AGYvaUn36YNVTjXXcevJYMN2RDEZs7hmpUF1YQCRijcl7UmbuI+iBsEP/4xX4+opgLNyRbwddX6COBLDxlxchZ1OxQiGPN5GEyp8oYPLztX8nCknjJXUIukPm5A1u2gydOcxi0Vaj90gYFPCRj9HAJfj9g0zRvPLTF3vuF/8rLIhTm6AtOc2QUtRm9S96QgKkaiKlBJ40VGh5ZWa8n9AZptRzuttoEFjZIMVP/QD8ZuYO8rdJ3ubMl4BaM5roXm8QqACsWw9ls/E37xR/v02IicG5XeV6vPReg3EbKT84rOi3WsyAhaTlZ72Koony+GCKGKQPU4WI7uX9zGHBs0nw01wEsyywTndh+r2jb0B9AynKimdAD1Mp4rhYeH9NJ7",
+  "signature": "TiXjpjc0mn8kWKEkG7b3KSLtD3gNenGPpIHcFrGc4PzAS0LYSGG0yItrcyI/ztjJXnGjjKRh5rJVUieVFGBB3boiO6EQWqE7j2yGg9OuTFEihyK5PSBMJW1T0WSFvPn6X+yqjp9UlWD+6TqyTvBjm9DPzeAPLTxklDc4Ji3AxshH2oidecZF+S+xUGYGrz6lMbnnvOiKmEjWwy/KH2abiIaoMNM0EU0vFrrFS83BH01DzupT302/OREgvHJZy3UCiepS6R2kUtu7BD7lM5EAYOzCSe2NPK83VaFcCZSaW0jjxqyuqL4J+bcYmP+Zeti5bzIenrLLu660mvZ1nFQJTa9b3rN506NJa0s5SslLzfhHXv2wKuPT3j5d6uDczAx/uWyJgFZzIuhPCgJ4ZTS+frwJYbEYQjq2gvzMPhVqw0YfKir62XNqRlblbMOgiSZ/fcrr6TwIWsJvobCQw4xj+xdpb4waUWYj/BgCtUIGMI9U+Bxgw6sZjN/KsP+mYHYS",
   "signatureAlg": "rsa-sha256",
-  "ipkSize": 9176862
+  "ipkSize": 9190346
 }
